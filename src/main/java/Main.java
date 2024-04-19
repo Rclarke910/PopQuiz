@@ -14,7 +14,7 @@ public class Main {
 
         Dimension dimension1 = new Dimension(1,1,20);
 
-        Case case1 = new Case("dell", "microsoft", "usc",dimension1);
+        Case case1 = new Case("chromebook", "microsoft", "usc",dimension1);
 
 
 

@@ -1,7 +1,17 @@
 public class PC {
 
+
     private Case case1;
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
+
     private Motherboard motherboard;
+
+    public Moniter getMoniter() {
+        return moniter;
+    }
 
     private Moniter moniter;
 
@@ -10,6 +20,10 @@ public class PC {
         this.case1 = case1;
         this.moniter = moniter;
         this.motherboard = motherboard;
+    }
+
+    public Case getCase1() {
+        return case1;
     }
 
     private String drawLogo(){
